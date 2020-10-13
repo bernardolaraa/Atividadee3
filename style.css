@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+.box{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+.box img{
+    width: 5%;
+    margin: 0px 50px;
+}
+
+.navigation{
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 100px;  
+}
+
+.navigation a{
+    font-size: 30px;
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: darkgoldenrod;
+    font-size: 35px;
+}
+
+main{
+    position: absolute;
+    top: 200px;
+}
+
+.main{
+    width: 50%;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 0px auto;
+    color: black;
+    background-color: white;
+    z-index: 0;
+}
+
+.main h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.main p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer img{
+    position: absolute;
+    top: 1400px;
+}

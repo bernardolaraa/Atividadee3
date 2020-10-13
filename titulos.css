@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.box{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+.box img{
+    width: 5%;
+    margin: 0px 50px;
+}
+
+.navigation{
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 100px;  
+}
+
+.navigation a{
+    font-size: 30px;
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: darkgoldenrod;
+    font-size: 35px;
+}
+
+main{
+    position: absolute;
+    top: 200px;
+}
+
+.titulos{
+    width: 40%;
+    padding: 30px;
+    margin: 0px auto;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.titulos h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.titulos p{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulos img{
+    width: 10%;
+    margin-right: 20px;
+}
+
+footer img{
+    position: absolute;
+    top: 1100px;
+}
